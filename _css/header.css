@@ -1,0 +1,28 @@
+header {
+	position: fixed;
+	width: 100%;
+	height: 135px;
+	z-index: 100;
+}
+
+nav {
+	width: 100%;
+	height: 135px;
+}
+
+header nav .header_logo {
+	width: 150px;
+	height: 50px;
+	float: left;
+	margin-left: 40px;
+	margin-top: 40px;
+}
+
+.header_logo h1 {
+	width: 150px;
+	text-indent: -9999px;
+	line-height: 50px;
+	background: url(../_img/logo2.svg) 50% 50% / 150px no-repeat;
+	opacity: 1;
+	transition: all 0.3s ease-in-out 1s;
+}

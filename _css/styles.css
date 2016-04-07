@@ -1,0 +1,40 @@
+/* Fonts */
+
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,900,300);
+
+/* Styles */
+
+html {
+	background: #070707;
+	font-family: 'Source Sans Pro', sans-serif;
+	color: white;
+	font-weight: 400;
+}
+
+body {
+	width: 100vw;
+	height: 100%;
+	margin: 0 auto;
+	box-sizing: border-box;
+}
+
+a,
+a:active,
+a:focus {
+	text-decoration: none;
+	color: white;
+}
+
+h1 {
+	font-weight: 900;
+	text-transform: uppercase;
+	color: white;
+	font-size: 48px;
+	letter-spacing: 1px;
+}
+
+h5 {
+	text-transform: uppercase;
+	font-size: 24px;
+	font-weight: 300;
+}

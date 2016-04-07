@@ -1,0 +1,11 @@
+@media screen and (max-width: 1280px) {
+	.articles .box {
+		width: 50%;
+	}
+}
+
+@media screen and (max-width: 760px) {
+	.articles .box {
+		width: 100%;
+	}
+}
